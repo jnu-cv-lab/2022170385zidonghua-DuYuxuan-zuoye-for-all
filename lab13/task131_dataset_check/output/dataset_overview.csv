@@ -1,0 +1,7 @@
+﻿label_id,label_name,video_count,source_folders,status
+0,forehand drive,159,forehand_drive,OK
+1,forehand lift,174,forehand_lift,OK
+2,forehand net shot,105,forehand_net_shot,OK
+3,forehand clear,119,forehand_clear,OK
+4,backhand drive,111,backhand_drive,OK
+5,backhand net shot,168,backhand_net_shot,OK

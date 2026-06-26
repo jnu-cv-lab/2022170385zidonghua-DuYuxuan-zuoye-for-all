@@ -1,0 +1,16 @@
+Lab13 单视频推理结果
+========================
+video_path: /mnt/c/Users/David/Desktop/国能计算机视觉实验/2026.6.12计算机视觉实验第十三次上课/archive/forehand_drive/001.mp4
+predicted class: backhand drive
+confidence: 0.201772
+total_frames: 56
+detected_frames: 55
+detection_rate: 0.9821
+
+softmax probabilities:
+- 0: forehand drive: 0.114462
+- 1: forehand lift: 0.143118
+- 2: forehand net shot: 0.200025
+- 3: forehand clear: 0.173095
+- 4: backhand drive: 0.201772
+- 5: backhand net shot: 0.167529

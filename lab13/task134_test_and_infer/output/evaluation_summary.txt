@@ -1,0 +1,20 @@
+Lab13 测试集评估总结
+========================
+model_path: /home/david/cv-course/lab13/task133_train_transformer/output/best_model.pth
+test_samples: 6
+accuracy: 0.3333
+
+classification report:
+                   precision    recall  f1-score   support
+
+   forehand drive       0.00      0.00      0.00         1
+    forehand lift       0.00      0.00      0.00         1
+forehand net shot       0.33      1.00      0.50         1
+   forehand clear       0.00      0.00      0.00         1
+   backhand drive       0.50      1.00      0.67         1
+backhand net shot       0.00      0.00      0.00         1
+
+         accuracy                           0.33         6
+        macro avg       0.14      0.33      0.19         6
+     weighted avg       0.14      0.33      0.19         6
+

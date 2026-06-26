@@ -1,0 +1,7 @@
+﻿class_id,class_name,probability
+0,forehand drive,0.114462
+1,forehand lift,0.143118
+2,forehand net shot,0.200025
+3,forehand clear,0.173095
+4,backhand drive,0.201772
+5,backhand net shot,0.167529

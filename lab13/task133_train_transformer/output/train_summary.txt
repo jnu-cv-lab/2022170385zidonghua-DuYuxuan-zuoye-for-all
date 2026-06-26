@@ -1,0 +1,11 @@
+Lab13 Skeleton Transformer 训练总结
+==================================
+device: cpu
+X_train shape: [24, 30, 132]
+X_test shape: [6, 30, 132]
+epochs: 5
+batch_size: 8
+learning_rate: 0.001
+best_epoch: 1
+best_test_acc: 0.3333
+classes: forehand drive, forehand lift, forehand net shot, forehand clear, backhand drive, backhand net shot

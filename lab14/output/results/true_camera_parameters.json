@@ -1,0 +1,499 @@
+{
+  "camera_model": "synthetic pinhole camera with radial and tangential distortion",
+  "K_true": [
+    [
+      900.0,
+      0.0,
+      640.0
+    ],
+    [
+      0.0,
+      920.0,
+      480.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "D_true_k1_k2_p1_p2_k3": [
+    0.08,
+    -0.03,
+    0.001,
+    0.0005,
+    0.01
+  ],
+  "image_size": {
+    "width": 1280,
+    "height": 960
+  },
+  "square_size_mm": 25.0,
+  "board_squares": {
+    "columns": 10,
+    "rows": 7
+  },
+  "inner_corners": {
+    "columns": 9,
+    "rows": 6
+  },
+  "image_count": 24,
+  "poses": [
+    {
+      "image": "calibration_01.png",
+      "pose_name": "center_front",
+      "euler_degrees_xyz": [
+        0,
+        0,
+        0
+      ],
+      "rvec": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tvec_mm": [
+        0.0,
+        0.0,
+        620.0
+      ]
+    },
+    {
+      "image": "calibration_02.png",
+      "pose_name": "left",
+      "euler_degrees_xyz": [
+        4,
+        -8,
+        2
+      ],
+      "rvec": [
+        0.07212958305959315,
+        -0.13834087806541656,
+        0.03970963407939519
+      ],
+      "tvec_mm": [
+        -150.0,
+        10.0,
+        650.0
+      ]
+    },
+    {
+      "image": "calibration_03.png",
+      "pose_name": "right",
+      "euler_degrees_xyz": [
+        -3,
+        9,
+        -2
+      ],
+      "rvec": [
+        -0.04950533003619892,
+        0.15793783561717628,
+        -0.030714529077522916
+      ],
+      "tvec_mm": [
+        150.0,
+        -10.0,
+        650.0
+      ]
+    },
+    {
+      "image": "calibration_04.png",
+      "pose_name": "upper",
+      "euler_degrees_xyz": [
+        -10,
+        2,
+        1
+      ],
+      "rvec": [
+        -0.17481536881981916,
+        0.03329425737029553,
+        0.020453382352922204
+      ],
+      "tvec_mm": [
+        0.0,
+        -115.0,
+        660.0
+      ]
+    },
+    {
+      "image": "calibration_05.png",
+      "pose_name": "lower",
+      "euler_degrees_xyz": [
+        10,
+        -2,
+        -1
+      ],
+      "rvec": [
+        0.17420613421684414,
+        -0.03633981318292188,
+        -0.014361035076348342
+      ],
+      "tvec_mm": [
+        0.0,
+        120.0,
+        660.0
+      ]
+    },
+    {
+      "image": "calibration_06.png",
+      "pose_name": "upper_left",
+      "euler_degrees_xyz": [
+        -8,
+        -10,
+        4
+      ],
+      "rvec": [
+        -0.1331229481224683,
+        -0.1790268849317225,
+        0.05733874244853462
+      ],
+      "tvec_mm": [
+        -145.0,
+        -105.0,
+        690.0
+      ]
+    },
+    {
+      "image": "calibration_07.png",
+      "pose_name": "upper_right",
+      "euler_degrees_xyz": [
+        -8,
+        10,
+        -4
+      ],
+      "rvec": [
+        -0.1331229481224683,
+        0.1790268849317225,
+        -0.05733874244853462
+      ],
+      "tvec_mm": [
+        145.0,
+        -105.0,
+        690.0
+      ]
+    },
+    {
+      "image": "calibration_08.png",
+      "pose_name": "lower_left",
+      "euler_degrees_xyz": [
+        8,
+        -10,
+        -4
+      ],
+      "rvec": [
+        0.1331229481224683,
+        -0.1790268849317225,
+        -0.05733874244853462
+      ],
+      "tvec_mm": [
+        -145.0,
+        105.0,
+        690.0
+      ]
+    },
+    {
+      "image": "calibration_09.png",
+      "pose_name": "lower_right",
+      "euler_degrees_xyz": [
+        8,
+        10,
+        4
+      ],
+      "rvec": [
+        0.1331229481224683,
+        0.1790268849317225,
+        0.05733874244853462
+      ],
+      "tvec_mm": [
+        145.0,
+        105.0,
+        690.0
+      ]
+    },
+    {
+      "image": "calibration_10.png",
+      "pose_name": "near_center",
+      "euler_degrees_xyz": [
+        2,
+        -3,
+        6
+      ],
+      "rvec": [
+        0.03760828531161112,
+        -0.05047981696760603,
+        0.10559904409534873
+      ],
+      "tvec_mm": [
+        0.0,
+        5.0,
+        500.0
+      ]
+    },
+    {
+      "image": "calibration_11.png",
+      "pose_name": "far_center",
+      "euler_degrees_xyz": [
+        -2,
+        3,
+        -6
+      ],
+      "rvec": [
+        -0.03212517297663603,
+        0.05413355588098753,
+        -0.10377134025535352
+      ],
+      "tvec_mm": [
+        0.0,
+        -5.0,
+        850.0
+      ]
+    },
+    {
+      "image": "calibration_12.png",
+      "pose_name": "yaw_left",
+      "euler_degrees_xyz": [
+        2,
+        -22,
+        0
+      ],
+      "rvec": [
+        0.03447663965046237,
+        -0.38393325380605886,
+        0.006701579873286598
+      ],
+      "tvec_mm": [
+        -40.0,
+        0.0,
+        680.0
+      ]
+    },
+    {
+      "image": "calibration_13.png",
+      "pose_name": "yaw_right",
+      "euler_degrees_xyz": [
+        -2,
+        22,
+        0
+      ],
+      "rvec": [
+        -0.03447663965046237,
+        0.38393325380605886,
+        0.006701579873286598
+      ],
+      "tvec_mm": [
+        40.0,
+        0.0,
+        680.0
+      ]
+    },
+    {
+      "image": "calibration_14.png",
+      "pose_name": "pitch_down",
+      "euler_degrees_xyz": [
+        20,
+        0,
+        0
+      ],
+      "rvec": [
+        0.34906585039886584,
+        0.0,
+        0.0
+      ],
+      "tvec_mm": [
+        0.0,
+        20.0,
+        690.0
+      ]
+    },
+    {
+      "image": "calibration_15.png",
+      "pose_name": "pitch_up",
+      "euler_degrees_xyz": [
+        -20,
+        0,
+        0
+      ],
+      "rvec": [
+        -0.34906585039886584,
+        0.0,
+        0.0
+      ],
+      "tvec_mm": [
+        0.0,
+        -20.0,
+        690.0
+      ]
+    },
+    {
+      "image": "calibration_16.png",
+      "pose_name": "roll_clockwise",
+      "euler_degrees_xyz": [
+        0,
+        0,
+        16
+      ],
+      "rvec": [
+        0.0,
+        0.0,
+        0.2792526803190926
+      ],
+      "tvec_mm": [
+        15.0,
+        0.0,
+        640.0
+      ]
+    },
+    {
+      "image": "calibration_17.png",
+      "pose_name": "roll_counterclockwise",
+      "euler_degrees_xyz": [
+        0,
+        0,
+        -16
+      ],
+      "rvec": [
+        0.0,
+        0.0,
+        -0.2792526803190926
+      ],
+      "tvec_mm": [
+        -15.0,
+        0.0,
+        640.0
+      ]
+    },
+    {
+      "image": "calibration_18.png",
+      "pose_name": "near_left_tilt",
+      "euler_degrees_xyz": [
+        12,
+        -16,
+        9
+      ],
+      "rvec": [
+        0.2295848922412107,
+        -0.2614121545907157,
+        0.18473735176479256
+      ],
+      "tvec_mm": [
+        -95.0,
+        45.0,
+        560.0
+      ]
+    },
+    {
+      "image": "calibration_19.png",
+      "pose_name": "near_right_tilt",
+      "euler_degrees_xyz": [
+        -12,
+        16,
+        -9
+      ],
+      "rvec": [
+        -0.1857218651011706,
+        0.2938831019896568,
+        -0.12625282534332954
+      ],
+      "tvec_mm": [
+        95.0,
+        -45.0,
+        560.0
+      ]
+    },
+    {
+      "image": "calibration_20.png",
+      "pose_name": "far_upper_roll",
+      "euler_degrees_xyz": [
+        -14,
+        -8,
+        12
+      ],
+      "rvec": [
+        -0.22843669462254934,
+        -0.16391798786302827,
+        0.1910021242483215
+      ],
+      "tvec_mm": [
+        -45.0,
+        -90.0,
+        810.0
+      ]
+    },
+    {
+      "image": "calibration_21.png",
+      "pose_name": "far_lower_roll",
+      "euler_degrees_xyz": [
+        14,
+        8,
+        -12
+      ],
+      "rvec": [
+        0.2576789742317484,
+        0.11290867624733093,
+        -0.22511817641311055
+      ],
+      "tvec_mm": [
+        45.0,
+        90.0,
+        810.0
+      ]
+    },
+    {
+      "image": "calibration_22.png",
+      "pose_name": "wide_upper_right",
+      "euler_degrees_xyz": [
+        -6,
+        18,
+        10
+      ],
+      "rvec": [
+        -0.1310135891533929,
+        0.3040808903558233,
+        0.18938751542462473
+      ],
+      "tvec_mm": [
+        165.0,
+        -130.0,
+        780.0
+      ]
+    },
+    {
+      "image": "calibration_23.png",
+      "pose_name": "wide_lower_left",
+      "euler_degrees_xyz": [
+        6,
+        -18,
+        -10
+      ],
+      "rvec": [
+        0.07618355915073592,
+        -0.32205699241560454,
+        -0.15648985141886618
+      ],
+      "tvec_mm": [
+        -165.0,
+        130.0,
+        780.0
+      ]
+    },
+    {
+      "image": "calibration_24.png",
+      "pose_name": "diagonal_close",
+      "euler_degrees_xyz": [
+        16,
+        -12,
+        14
+      ],
+      "rvec": [
+        0.3024384505497253,
+        -0.17314630597040107,
+        0.2711196093820623
+      ],
+      "tvec_mm": [
+        -70.0,
+        -55.0,
+        540.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Camera Calibration Using a Checkerboard Pattern
+================================================
+
+Total images: 24
+Detection success: 24
+Detection failure: 0
+Failed images: None
+
+RMS reprojection error from cv2.calibrateCamera: 0.20925496 px
+Manual mean reprojection error: 0.19415374 px
+
+Camera matrix K:
+[[898.49429211   0.         640.38971807]
+ [  0.         918.31667734 479.91396193]
+ [  0.           0.           1.        ]]
+
+Distortion coefficients D [k1, k2, p1, p2, k3]:
+[ 0.08203968 -0.04786574  0.0015175   0.00119371  0.04292047]

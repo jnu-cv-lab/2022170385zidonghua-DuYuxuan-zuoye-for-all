@@ -1,0 +1,8 @@
+{
+  "forehand drive": 0,
+  "forehand lift": 1,
+  "forehand net shot": 2,
+  "forehand clear": 3,
+  "backhand drive": 4,
+  "backhand net shot": 5
+}
