@@ -1,0 +1,7 @@
+Lab 10 任务一测试结果
+数据集: MNIST
+复用模型: lab09 SimpleCNN
+训练轮数: 5
+Final Test Loss: 0.0381
+Final Test Accuracy: 0.9871
+Final Test Accuracy (%): 98.71%

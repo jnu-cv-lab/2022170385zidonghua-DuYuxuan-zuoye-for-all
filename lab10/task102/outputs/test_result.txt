@@ -1,0 +1,11 @@
+Lab 10 任务二：优化器对比测试结果
+数据集：MNIST
+模型：复用 lab09/task101 的 SimpleCNN，模型结构未改变
+训练轮数：每种优化器 5 个 epoch
+
+SGD 最终 Test Accuracy: 0.9479 (94.79%)
+SGD + Momentum 最终 Test Accuracy: 0.9884 (98.84%)
+Adam 最终 Test Accuracy: 0.9881 (98.81%)
+
+表现最好的优化器：SGD + Momentum
+最高 Test Accuracy: 0.9884 (98.84%)

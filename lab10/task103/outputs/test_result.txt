@@ -1,0 +1,17 @@
+Lab 10 任务三：学习率对比测试结果
+数据集：MNIST
+模型：复用 lab09/task101/task102 的 SimpleCNN，模型结构未改变
+优化器：Adam
+训练轮数：每个学习率 5 个 epoch
+
+learning rate = 0.1 最终 Test Accuracy: 0.1028 (10.28%)
+learning rate = 0.01 最终 Test Accuracy: 0.9826 (98.26%)
+learning rate = 0.001 最终 Test Accuracy: 0.9881 (98.81%)
+
+表现最好的学习率：0.001
+最高 Test Accuracy: 0.9881 (98.81%)
+
+简单分析：
+学习率过大可能导致 loss 震荡或训练不稳定，模型难以收敛到较好结果。
+学习率过小可能导致收敛较慢，在较少 epoch 内准确率提升有限。
+合适的学习率通常能获得更稳定的训练过程和更高的准确率。

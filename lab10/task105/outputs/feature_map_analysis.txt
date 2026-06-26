@@ -1,0 +1,24 @@
+Lab 10 任务五：Feature map 可视化分析
+
+本任务加载的模型权重文件：/home/david/cv-course/lab10/task102/outputs/model_sgd_momentum.pth
+选择的测试图片真实类别：7
+模型预测类别：7
+第一层 feature maps 形状：(1, 16, 28, 28)
+本次实际显示的 feature maps 数量：16
+
+不同 feature maps 的响应观察：
+显示的 16 张 feature maps 中，有 13 张的响应标准差较大，说明它们对图像局部区域的响应差异更明显。
+Feature Map 1 的最强响应位于图像上部右侧附近
+Feature Map 2 的最强响应位于图像下部中间附近
+Feature Map 3 的最强响应位于图像上部左侧附近
+Feature Map 4 的最强响应位于图像上部中间附近
+Feature Map 5 的最强响应位于图像下部中间附近
+Feature Map 6 的最强响应位于图像下部中间附近
+Feature Map 7 的最强响应位于图像下部中间附近
+Feature Map 8 的最强响应位于图像上部中间附近
+从可视化图中可以看到，不同 feature maps 会在数字笔画的不同位置出现较强响应，例如笔画边缘、转折处、局部亮度变化明显的位置。
+
+原理说明：
+不同卷积核会提取不同图像特征，例如边缘、笔画方向、局部纹理或局部亮度变化。
+feature map 是卷积核在输入图像上滑动卷积后得到的响应结果。
+响应较强的区域表示该卷积核在这些位置检测到了更符合自身权重模式的局部特征。
